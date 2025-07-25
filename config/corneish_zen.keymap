@@ -111,7 +111,7 @@
             display-name = "NUMPAD";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+// |      | BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             bindings = <
@@ -125,10 +125,10 @@
         config_layer {
             display-name = "CONFIG";
 // -----------------------------------------------------------------------------------------
-// |  TAB | BT1  | BT2  | BT3   | BT4  | BT5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-// | BTCLR| BRTU | PREV | PAUSE | NEXT | VOLU |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT | BRTD |      |       | MUTE | VOLD |   |     |     |     |     |     |      |
-//                      | GUI   |      | SPC  |   | ENT |     | ALT |
+// |       | BT1  | BT2  | BT3   | BT4  | BT5  |   |     |     |     |     |     |      |
+// | BTCLR | BRTU | PREV | PAUSE | NEXT | VOLU |   |     |     |     |     |     |      |
+// |       | BRTD |      |       | MUTE | VOLD |   |     |     |     |     |     |      |
+//                       | GUI   |      | SPC  |   | ENT |     | ALT |
             bindings = <
 &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans
 &bt BT_CLR &kp C_BRI_UP &kp C_PREV   &kp C_PP     &kp C_NEXT   &kp C_VOL_UP &trans &trans &trans &trans &trans &trans
